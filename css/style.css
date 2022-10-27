@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  height: 100%;
+  align-items: center;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item a:hover {
+  opacity: 0.65;
+}
+
+/*Estilo Css de index*/
+
+.imagenPrincipal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+.tarjetitas {
+  display: flex;
+  padding: 60px;
+  gap: 50px;
+}
+
+.tarjetita {
+  background-color: gray;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.informacion {
+  padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+  max-width: 100%;
+}
+
+.footer__iconos {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.animado {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-animado {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list-animado {
+  list-style: none;
+  color: #484848;
+  font-size: 40px;
+  letter-spacing: 10px;
+  animation: iluminar 1.4s linear infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    color: white;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.1s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.2s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.3s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.4s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.5s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.6s;
+}
+
+.ul-animado .list-animado {
+  animation-delay: 0.7s;
+}
+
+/*Estilo Css de Productos*/
+
+p {
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-padre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.hijo {
+  margin: 40px 0px;
+}
+
+.hijo img {
+  max-width: 400px;
+}
+
+.boton {
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: rgb(90, 87, 87);
+}
+
+/*Estilo Css de Promos*/
+
+.body {
+  padding: 1rem;
+}
+
+.main-promo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+  max-width: 400px;
+}
+
+article button {
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+article button:hover {
+  color: gray;
+}
