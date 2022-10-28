@@ -43,6 +43,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   max-width: 900px;
+  max-width: 100%;
   border: 1px solid;
   border-radius: 1rem;
 }
@@ -72,6 +73,7 @@ header {
 
 .footer__iconos {
   color: white;
+  padding: 5px;
 }
 
 .footer {
@@ -185,6 +187,7 @@ p {
 
 .hijo img {
   max-width: 400px;
+  max-width: 100%;
 }
 
 .boton {
@@ -226,6 +229,7 @@ article img {
   order: -1;
   align-self: center;
   max-width: 400px;
+  max-width: 100%;
 }
 
 article button {
