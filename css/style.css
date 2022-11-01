@@ -245,3 +245,29 @@ article button {
 article button:hover {
   color: gray;
 }
+
+@media screen and (max-width: 768px) {
+  .tarjetitas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tarjetita {
+    flex: 1;
+  }
+
+  .grid-padre {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 1rem;
+  }
+
+  .main-promo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 4rem;
+  }
+}
