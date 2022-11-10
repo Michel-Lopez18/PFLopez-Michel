@@ -1,0 +1,20 @@
+{
+  "name": "preentega3-lopez-michel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michel-Lopez18/PreEntega2-Lopez-Michel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michel-Lopez18/PreEntega2-Lopez-Michel/issues"
+  },
+  "homepage": "https://github.com/Michel-Lopez18/PreEntega2-Lopez-Michel#readme"
+}

@@ -1,0 +1,33 @@
+p {
+  margin-bottom: 30px;
+}
+
+.grid-padre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.hijo {
+  margin: 40px 0px;
+
+  img {
+    max-width: 400px;
+    max-width: 100%;
+  }
+}
+
+.boton {
+  margin-top: 20px;
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(90, 87, 87);
+  }
+}

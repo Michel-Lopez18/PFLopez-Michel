@@ -1,0 +1,37 @@
+.body {
+  padding: 1rem;
+}
+
+.main-promo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+
+  img {
+    order: -1;
+    align-self: center;
+    max-width: 400px;
+    max-width: 100%;
+  }
+  button {
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}

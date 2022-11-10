@@ -1,0 +1,102 @@
+h1 {
+  background-color: $footer-color;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+}
+
+.animado {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  &__list {
+    list-style: none;
+    color: #484848;
+    font-size: 40px;
+    letter-spacing: 15px;
+    animation: iluminar 1.4s linear infinite;
+  }
+}
+
+@keyframes iluminar {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+
+ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+ul li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+ul li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+ul li:nth-child(4) {
+  animation-delay: 0.3s;
+}
+ul li:nth-child(5) {
+  animation-delay: 0.4s;
+}
+ul li:nth-child(6) {
+  animation-delay: 0.5s;
+}
+ul li:nth-child(7) {
+  animation-delay: 0.6s;
+}
+ul li:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+.tarjetitas {
+  display: flex;
+  padding: 60px;
+  gap: 50px;
+}
+
+.tarjetita {
+  background-color: $tarjetita-color;
+  border-radius: 30px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 20px;
+
+  &__imagen {
+    max-width: 100%;
+  }
+
+  &__informacion {
+    padding: 10px 20px 20px;
+  }
+
+  &__boton {
+    a {
+      margin: 20px;
+      text-decoration: none;
+      color: black;
+      padding: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
