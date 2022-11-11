@@ -237,13 +237,18 @@ article button:hover {
   }
 }
 /*ESTILO CSS DE CONTACTO*/
-.contacto {
+.body-contacto {
   background-image: url("../Imagenes/fondo-contacto.jfif");
-  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.contacto {
+  height: 80vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 form {

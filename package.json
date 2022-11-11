@@ -1,7 +1,7 @@
 {
   "name": "preentega3-lopez-michel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Indumentaria, productos, promociones, envios desde la tienda de indumentaria online Macco",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch scss/style.scss css/style.css"
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Michel-Lopez18/PreEntega2-Lopez-Michel.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ndumentaria, ropa, promociones, productos, descuentos, envios, contactos, Mendoza, moda, remeras, camisas, mallas, bermudas, pantalones"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
